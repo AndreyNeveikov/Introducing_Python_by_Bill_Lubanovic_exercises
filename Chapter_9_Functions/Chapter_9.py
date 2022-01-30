@@ -1,3 +1,4 @@
+#1
 def good():
     return ['Harry', 'Ron', 'Hermione']
 
@@ -5,6 +6,7 @@ def good():
 print(good())
 
 
+#2
 def get_odds():
     for number in range(10):
         if number % 2 != 0:
@@ -19,6 +21,7 @@ for odd in get_odds():
         break
 
 
+#3
 def test(func):
     def prints_start_and_end():
         print('start')
@@ -38,6 +41,7 @@ say_hello()
 # test_hello()
 
 
+#4
 class OopsException(Exception):
     pass
 
